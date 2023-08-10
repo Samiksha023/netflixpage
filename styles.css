@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+header {
+    background-color: #000;
+    padding: 4px;
+}
+
+header img {
+    max-width: 200px;
+}
+header button{
+    background-color:red;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 10pc;
+    top:2.5pc;
+    
+}
+header select{
+    background-color:black;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 20pc;
+    top:2.5pc;
+
+}
+
+.hero {
+    background-image: url("bgnt.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 200px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-style: bold;
+}
+
+.hero p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.card {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 200px 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    
+}
+.card-content {
+    flex: 1;
+    padding: 20px;
+}
+  
+.card-content h2 {
+    font-size: 50px;
+    font-style: BOLD;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+  
+.card-content p {
+    font-size: 20px;
+    font-style: BOLD;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+.card-image {
+    flex: 1;
+}
+  
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.cd {
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 100px 100px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .cd-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .cd-content h2 {
+    font-size: 50px;
+    font-style: BOLD;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
+  
+  .cd-content p {
+    font-size: 20px;
+    font-style: BOLD;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+  
+ 
+  .cd-image {
+    flex: 1;
+  }
+  
+  .cd-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .netflix-footer {
+    background-color: #141414;
+    color: #888;
+    padding: 40px 0;
+  }
+  
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  .footer-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
+  .footer-disclaimer {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .footer-disclaimer p {
+    margin: 5px 0;
+  }
+  
